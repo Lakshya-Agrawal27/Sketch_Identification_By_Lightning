@@ -1,0 +1,38 @@
+body
+{
+background-color: navy;
+}
+
+h1
+{
+    color: cyan;
+    background-color: green;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5 px solid skyblue;
+    border-radius: 5px;
+    animation-name: Lightning;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Lightning 
+{
+    from{box-shadow: 10px 10px 50px red;}
+    to{box-shadow: 10px 10px 50px navy;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    color: cyan;
+}
